@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node bootstrap.js"
+    "start":"node bootstrap.js",
+    "lint": "esw *.js server config --color"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "babel-core": "^6.24.1",
-    "babel-preset-es2015": "^6.24.1"
+    "eslint": "3.16.1",
+    "eslint-config-airbnb-base": "7.1.0",
+    "eslint-plugin-import": "1.16.0",
+    "eslint-watch": "2.1.14"
   }
 }
