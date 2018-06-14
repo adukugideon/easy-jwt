@@ -8,7 +8,7 @@
     "start": "node bootstrap.js",
     "lint": "esw *.js server config --color"
   },
-  "author": "",
+  "author": "Gideon Aduku",
   "license": "ISC",
   "devDependencies": {
     "eslint": "3.16.1",

@@ -1,4 +1,4 @@
 language: "node_js"
 before_install: npm i -g npm@5
 node_js:
-  - "0.8"
+  - "8.11.3"
